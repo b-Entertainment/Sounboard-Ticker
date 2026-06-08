@@ -17,12 +17,17 @@ body {
     overflow: hidden;
 }
 
-.ticker {
-    display: inline-block;
-    white-space: nowrap;
-    font-size: 36px;
-    font-family: Arial, sans-serif;
-    animation: scroll 25s linear infinite;
+.ticker{
+    white-space:nowrap;
+    font-size:64px;
+    font-family:Arial,sans-serif;
+    color:white;
+    text-shadow:
+        -2px -2px 0 #000,
+         2px -2px 0 #000,
+        -2px  2px 0 #000,
+         2px  2px 0 #000;
+    animation:ticker 120s linear infinite;
 }
 
 @keyframes scroll {
